@@ -14,8 +14,7 @@ while True:
         print("Guess higher!")
         total_guesses += 1
 
-    elif user_input == number_generator:
-
-        print("You guessed the number! The number is {} Your total guesses is {} \n Play again? (y/n)".format(str(number_generator), str(total_guesses)))
-        user_input = input(">>>")
+    else:
+        print("You guessed the number! The number is {} \nYour total guesses is {}".format(str(number_generator), str(total_guesses)))
+ 
 
